@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sid | AI Engineer Portfolio</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
     <script>
         tailwind.config = {
             theme: {
@@ -23,8 +25,13 @@
             }
         }
     </script>
+    
     <style>
-        body { background-color: #0b1120; color: white; overflow-x: hidden; }
+        body { 
+            background-color: #0b1120; 
+            color: white; 
+            overflow-x: hidden; 
+        }
         
         /* Glassmorphism Effect */
         .glass-card {
@@ -51,7 +58,6 @@
 <body class="antialiased pt-24"> 
 
     <nav class="fixed top-0 left-0 w-full bg-[#0b1120]/80 backdrop-blur-lg border-b border-white/10 px-4 md:px-8 py-4 z-50 flex justify-between items-center transition-all">
-        
         <div class="text-xl md:text-2xl font-black tracking-tighter text-white">
             <i class="fa-solid fa-code text-lime mr-1"></i>SID<span class="text-lime">.Portfolio</span>
         </div>
@@ -68,14 +74,12 @@
     </nav>
 
     <header class="relative pt-10 pb-32 flex flex-col items-center justify-center text-center overflow-hidden">
-        
-        <h2 class="text-3xl md:text-5xl font-bold text-lime mb-2">I'm Siddharth </h2>
+        <h2 class="text-3xl md:text-5xl font-bold text-lime mb-2">I'm Siddharth</h2>
         <h1 class="text-5xl md:text-7xl font-black text-white mb-10 leading-tight">
-            AI Engineer & Data Analyst
+            AI Engineer & Co-Founder
         </h1>
 
         <div class="relative w-full max-w-5xl mx-auto h-[500px] flex justify-center items-end">
-            
             <div class="absolute left-4 md:left-20 top-20 glass-card p-4 rounded-xl w-48 text-left z-20 float-medium hidden md:block">
                 <div class="flex items-center gap-2 mb-2">
                     <span class="font-bold text-xs text-white">Client Review</span>
@@ -88,9 +92,11 @@
                  alt="Sid" 
                  class="h-full object-cover z-10 rounded-b-3xl mask-image-gradient border-4 border-lime/50 shadow-[0_0_30px_rgba(223,255,94,0.3)] hover:shadow-[0_0_50px_rgba(223,255,94,0.6)] transition-all duration-300">
 
-            <button class="absolute bottom-10 z-30 bg-lime text-navy font-black px-8 py-3 rounded-full shadow-lg hover:scale-105 transition uppercase text-xs tracking-wider">
-                My Resume
-            </button>
+            <a href="https://drive.google.com/file/d/1I08uJhU-Rld8knMwyyoqsOolmeu3WBUd/view" target="_blank" class="absolute bottom-10 z-30">
+                <button class="bg-lime text-navy font-black px-8 py-3 rounded-full shadow-lg hover:scale-105 transition uppercase text-xs tracking-wider">
+                    My Resume
+                </button>
+            </a>
 
             <div class="absolute right-4 md:right-20 top-32 glass-card p-5 rounded-xl w-56 text-left z-20 float-slow hidden md:block">
                 <h3 class="text-xs font-bold mb-4 uppercase text-gray-300 border-b border-gray-700 pb-2">My Expertise</h3>
@@ -107,30 +113,32 @@
                     <div class="w-full bg-gray-700 h-1.5 rounded-full"><div class="bg-purple-500 h-1.5 rounded-full w-[85%]"></div></div>
                 </div>
             </div>
-
         </div>
     </header>
 
     <section id="about" class="py-20 relative max-w-4xl mx-auto text-center px-6 scroll-mt-24">
         <div class="hidden md:block absolute left-0 top-10 w-32 h-40 bg-gray-800 border-4 border-gray-700 rounded-xl overflow-hidden tilt-left shadow-2xl z-0">
-            <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=300" class="w-full h-full object-cover opacity-60">
+            <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=300" class="w-full h-full object-cover opacity-60" alt="Tech">
         </div>
         <div class="hidden md:block absolute right-0 bottom-10 w-32 h-40 bg-gray-800 border-4 border-gray-700 rounded-xl overflow-hidden tilt-right shadow-2xl z-0">
-            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=300" class="w-full h-full object-cover opacity-60">
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=300" class="w-full h-full object-cover opacity-60" alt="Code">
         </div>
 
         <div class="relative z-10">
-            <h3 class="text-lime text-4xl font-black mb-6 uppercase italic">Who Am I?</h3>
+            <h3 class="text-lime text-4xl font-black mb-6 uppercase italic">
+                Who Am I?
+            </h3>
             <p class="text-gray-400 leading-relaxed mb-6">
-                I am a <b>B.Tech Student at AKTU</b> and a passionate Full Stack AI Developer. 
-                I specialize in building intelligent agents using <b>LangGraph</b> and Computer Vision systems with <b>YOLOv8</b>.
+                Hi, I'm <b>Siddharth</b>, an <b>AI Engineer</b>, <b>B.Tech Student</b>,
+                and <b>Co-Founder of NextAIToday</b>—one of India's AI-focused media platforms.
+                I build intelligent AI applications, <b>Multi-Agent Systems</b>, and scalable backend solutions
+                using <b>Python</b>, <b>FastAPI</b>, <b>LangGraph</b>, and <b>LangChain</b>.
             </p>
-            <p class="text-gray-400 leading-relaxed mb-10">
-                Currently working on <b>"AI Chronicle"</b>, a next-gen AI newspaper. When I'm not coding, I'm analyzing backend architectures or mastering badminton smashes.
-            </p>
-            <button class="bg-lime text-navy px-8 py-4 rounded-full font-black text-xs uppercase hover:shadow-[0_0_20px_#dfff5e] transition">
-                Download My CV
-            </button>
+            <a href="new_resume.pdf" download>
+                <button class="bg-lime text-navy px-8 py-4 rounded-full font-black text-xs uppercase hover:shadow-[0_0_20px_#dfff5e] transition">
+                    Download My CV
+                </button>
+            </a>
         </div>
     </section>
 
@@ -154,11 +162,10 @@
                 <i class="fa-solid fa-robot text-4xl text-green-400 mb-2"></i>
                 <span class="font-bold text-sm uppercase">Agentic AI</span>
             </div>
-
             <div class="col-span-2 md:col-span-1 bg-card border border-gray-700 p-6 rounded-2xl flex flex-col justify-center items-center text-center">
-                <span class="text-4xl font-black text-white">2+</span>
+                <span class="text-4xl font-black text-white">5+</span>
                 <span class="text-xs uppercase font-bold text-gray-400 mt-1">Projects<br>Completed</span>
-                <a href="https://github.com/minatoNamikage-cyber" class="mt-4 bg-lime text-navy text-[10px] font-bold px-4 py-2 rounded-full">VIEW GITHUB</a>
+                <a href="https://github.com/minatoNamikage-cyber" target="_blank" class="mt-4 bg-lime text-navy text-[10px] font-bold px-4 py-2 rounded-full">VIEW GITHUB</a>
             </div>
         </div>
 
@@ -172,60 +179,56 @@
     <section id="projects" class="py-20 px-6 max-w-7xl mx-auto scroll-mt-24">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12">
             <h2 class="text-4xl md:text-5xl font-black uppercase leading-none">
-                The Works  <span class="text-gray-500">Closest to</span> <br> <span class="text-lime">My Heart</span>
+                The Works <span class="text-gray-500">Closest to</span> <br> <span class="text-lime">My Heart</span>
             </h2>
             <button onclick="window.open('https://github.com/minatoNamikage-cyber', '_blank')" class="bg-lime text-navy px-8 py-3 rounded-full font-black text-xs uppercase mt-6 md:mt-0 hover:shadow-lg hover:scale-105 transition cursor-pointer">
-    All Projects 
-</button>
+                All Projects 
+            </button>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="group relative bg-gray-800 rounded-[2rem] overflow-hidden h-[500px] border border-gray-700 hover:border-lime transition">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700" alt="NextAIToday">
+                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
+                    <span class="bg-lime text-navy text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">GEN AI & WEB</span>
+                    <h3 class="text-2xl font-bold text-white mb-1">NextAIToday</h3>
+                    <p class="text-gray-400 text-xs">Next-Gen AI Newspaper Platform</p>
+                </div>
+            </div>
             
             <div class="group relative bg-gray-800 rounded-[2rem] overflow-hidden h-[500px] border border-gray-700 hover:border-lime transition">
-                <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700">
+                <img src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?q=80&w=736&auto=format&fit=crop" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700" alt="Chatbot">
                 <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
-                    <span class="bg-lime text-navy text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">MACHINE LEARNING</span>
-                    <h3 class="text-2xl font-bold text-white mb-1">IPL Win Predictor</h3>
-                    <p class="text-gray-400 text-xs">A Futuristic AI to check Win Probability</p>
+                    <span class="bg-lime text-navy text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">LANGCHAIN</span>
+                    <h3 class="text-2xl font-bold text-white mb-1">Tool-Capable Chatbot</h3>
+                    <p class="text-gray-400 text-xs">Chatbot configured with advanced multi-tool capability</p>
                 </div>
             </div>
 
             <div class="group relative bg-gray-800 rounded-[2rem] overflow-hidden h-[500px] md:h-[550px] md:-mt-12 border border-gray-700 hover:border-lime transition shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700" alt="Computer Vision">
                 <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
                     <span class="bg-lime text-navy text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">COMPUTER VISION</span>
                     <h3 class="text-2xl font-bold text-white mb-1">Data Augmentation</h3>
                     <p class="text-gray-400 text-xs">Real-time Pipeline for Surveillance Object Detection</p>
                 </div>
             </div>
-
-            <div class="group relative bg-gray-800 rounded-[2rem] overflow-hidden h-[500px] border border-gray-700 hover:border-lime transition">
-                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-700">
-                <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
-                    <span class="bg-lime text-navy text-[10px] font-bold px-3 py-1 rounded-full mb-2 inline-block">GEN AI & WEB</span>
-                    <h3 class="text-2xl font-bold text-white mb-1">AI Chronicle</h3>
-                    <p class="text-gray-400 text-xs">Next-Gen AI Newspaper Platform</p>
-                </div>
-            </div>
-
         </div>
     </section>
 
     <section id="contact" class="py-20 max-w-5xl mx-auto px-6 relative scroll-mt-24">
-        
         <h3 class="text-center text-4xl font-black mb-4 text-white uppercase">Get In <span class="text-lime">Touch</span></h3>
         <p class="text-center text-gray-400 mb-16 max-w-xl mx-auto">Have a project in mind or want to discuss AI? Drop me a message or connect on social media.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-            
             <div class="space-y-6">
-               <a href="https://instagram.com/siddharth_volleyball_18" target="_blank" class="flex items-center gap-5 bg-card p-6 rounded-2xl border border-transparent hover:border-lime transition group cursor-pointer">
-                  <div class="w-14 h-14 bg-[#0b1120] rounded-full flex items-center justify-center text-gray-400 group-hover:text-pink-500 group-hover:shadow-[0_0_15px_#ec4899] transition">
-                      <i class="fa-brands fa-instagram text-xl"></i>
+                <a href="https://instagram.com/siddharth_volleyball_18" target="_blank" class="flex items-center gap-5 bg-card p-6 rounded-2xl border border-transparent hover:border-lime transition group cursor-pointer">
+                    <div class="w-14 h-14 bg-[#0b1120] rounded-full flex items-center justify-center text-gray-400 group-hover:text-pink-500 group-hover:shadow-[0_0_15px_#ec4899] transition">
+                        <i class="fa-brands fa-instagram text-xl"></i>
                     </div>
                     <div>
-                       <h4 class="text-sm font-bold text-gray-400 uppercase tracking-wider">Instagram</h4>
-                       <p class="text-lg font-bold text-white">@siddharth_volleyball_18</p>
+                        <h4 class="text-sm font-bold text-gray-400 uppercase tracking-wider">Instagram</h4>
+                        <p class="text-lg font-bold text-white">@siddharth_volleyball_18</p>
                     </div>
                 </a>
 
@@ -250,33 +253,30 @@
                 </a>
             </div>
 
-    <form action="https://api.web3forms.com/submit" method="POST" class="bg-card p-8 rounded-3xl border border-gray-800 flex flex-col gap-4">
+            <form action="https://api.web3forms.com/submit" method="POST" class="bg-card p-8 rounded-3xl border border-gray-800 flex flex-col gap-4">
+                <input type="hidden" name="access_key" value="b7b0f6a9-d201-405d-9fab-72d9bb37668d">
+                <input type="hidden" name="subject" value="New Submission from Sid Portfolio">
 
-        <input type="hidden" name="access_key" value="b7b0f6a9-d201-405d-9fab-72d9bb37668d">
-    
-        <input type="hidden" name="subject" value="New Submission from Sid Portfolio">
-
-        <div class="grid grid-cols-2 gap-4">
-               <div class="flex flex-col gap-2">
-                      <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Your Name</label>
-                      <input type="text" name="name" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold" placeholder="Sid">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex flex-col gap-2">
+                        <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Your Name</label>
+                        <input type="text" name="name" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold" placeholder="Sid">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Email Address</label>
+                        <input type="email" name="email" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold" placeholder="sid@example.com">
+                    </div>
                 </div>
+    
                 <div class="flex flex-col gap-2">
-                     <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Email Address</label>
-                     <input type="email" name="email" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold" placeholder="sid@example.com">
+                    <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Your Message</label>
+                    <textarea name="message" rows="4" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold resize-none" placeholder="Tell me about the project..."></textarea>
                 </div>
-                </div>
-    
-        <div class="flex flex-col gap-2">
-             <label class="text-[10px] font-bold text-gray-500 uppercase ml-2">Your Message</label>
-            <textarea name="message" rows="4" required class="w-full bg-[#0b1120] text-white p-4 rounded-xl border border-gray-700 focus:border-lime focus:ring-1 focus:ring-lime outline-none transition text-xs font-bold resize-none" placeholder="Tell me about the project..."></textarea>
-        </div>
 
-        <button type="submit" class="w-full bg-lime text-navy py-4 rounded-xl font-black text-xs uppercase hover:shadow-[0_0_20px_#dfff5e] hover:scale-[1.02] transition mt-2">
-               Send Message <i class="fa-solid fa-paper-plane ml-2"></i>
-        </button>
-    </form>
-
+                <button type="submit" class="w-full bg-lime text-navy py-4 rounded-xl font-black text-xs uppercase hover:shadow-[0_0_20px_#dfff5e] hover:scale-[1.02] transition mt-2">
+                    Send Message <i class="fa-solid fa-paper-plane ml-2"></i>
+                </button>
+            </form>
         </div>
 
         <div class="mt-20 pt-8 border-t border-gray-800 text-center">
@@ -284,7 +284,7 @@
                 &copy; 2025 Sidharth. Built for the Future.
             </p>
         </div>
-</section>
+    </section>
 
 </body>
 </html>
